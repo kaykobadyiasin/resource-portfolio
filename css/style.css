@@ -206,6 +206,7 @@ body{
 	color: #757575;
 	width: 75%;
 }
+
 /* What I do section end */
 
 
@@ -272,12 +273,10 @@ body{
 
 /* summer section end  */
 
+/* footer start  */
 footer{
     padding: 100px;
     background-color: #FFF8F3;
-}
-.f_left{
-    width: 50%;
 }
 .f_left h4{
     margin: 0;
@@ -291,8 +290,9 @@ footer{
 	width: 70%;
 	margin-left: 24%;
 }
-.f_right h4{
-    font-size: 35px;
+.f_right h4 {
+	font-size: 35px;
+	margin-top: 0;
 }
 .f_right input{
     width: 100%;
@@ -306,16 +306,17 @@ footer{
     font-family: 'Open Sans', sans-serif;
     padding: 10px;
     resize: none;
-    width: 523px;
+    width: 407px;
     height: 180px;
+    border: none;
 }
 .f_right button {
 	background-color: #FD6E0A;
 	color: white;
 	padding: 15px 40px;
 	border-radius: 5px;
-	font-size: 18px;
-	font-weight: 700;
+	font-size: 20px;
+	font-weight: 500;
 	transition: .3s;
 	border: none;
     margin-top: 24px;
@@ -337,3 +338,5 @@ footer{
 .ft_content{
     display: flex;
 }
+
+/* footer end  */
