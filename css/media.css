@@ -1,9 +1,243 @@
-@media only screen and (max-width: 576px){
+@media only screen and (min-width: 400px) and (max-width: 576.98px){
+    .container {
+        width: 90%;
+    }
+
+    /* header start  */
+    .logo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .menu {
+        width: 100%;
+        float: none;
+    }
+    .menu ul {
+        margin-top: 8px;
+    }
+    .menu ul li {
+        margin-right: 35px;
+    }
+    .menu ul li:last-child {
+        padding: 10px 25px;
+    }
+    .top_mrg {
+        margin-top: 10px;
+    }
+    .menu ul li a {
+        font-size: 18px;
+    }
+    /* header end  */
+
+    /* banner start  */
+
+    .banner_content {
+        width: 100%;
+        padding-top: 35px;
+    }
+    .banner_content h1 {
+        font-size: 50px;
+    }
+    .banner_content p {
+        width: 100%;
+    }
+    .download_btn {
+        padding: 15px 15px;
+        margin-right: 15px;
+        font-size: 18px;
+    }
+    .contact_btn {
+        padding: 15px 20px;
+        font-size: 18px;
+    }
+    .banner_img {
+        width: 100%;
+    }
+    /* banner end  */
+
+    /* about start  */
+    .about_me {
+        padding: 45px 20px;
+    }
+    .ab_content {
+        padding: 25px 0;
+    }
+    .cont_hed p {
+        padding: 0 10%;
+    }
+
+    .single {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .single h4 {
+        font-size: 18px;
+    }
+
+
+
+    /* what I do section start  */
+    .cont_hed p {
+        padding: 0;
+    }
     
+    .personal_info {
+        flex-wrap: wrap;
+    }
+
+    .single_2 {
+        margin-top: 25px;
+        margin-right: 0;
+        text-align: center;
+    }
+    .s2_img {
+        margin: 0 auto;
+    }
+    .single_2 p {
+        width: 100%;
+    }
+
+    /* summary of resume */
+    .summary {
+        padding: 0 0 35px 0;
+    }
+    .sum_hed {
+        margin-bottom: 60px;
+    }
+    .summary_content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .single_3 {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    /* footer  */
+    footer {
+        padding: 50px 15px;
+    }
+    .ft_content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .f_left p {
+        width: 100%;
+    }
+    .f_right {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .f_right input {
+        width: 94%;
+    }
+    .f_right textarea {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 576.99px) and (max-width: 768px){
-    
+    .container {
+        width: 90%;
+    }
+
+    /* header start  */
+    .menu {
+        width: 70%;
+    }
+    .menu ul {
+        margin-top: 8px;
+    }
+    .menu ul li {
+        margin-right: 35px;
+    }
+    .menu ul li a {
+        font-size: 18px;
+    }
+    /* header end  */
+
+    /* banner start  */
+    .banner_content {
+        width: 100%;
+        padding-top: 100px;
+    }
+    .banner_img {
+        width: 100%;
+    }
+    /* banner end  */
+
+    /* about start  */
+    .about_me {
+        padding: 45px 20px;
+    }
+    .ab_content {
+        padding: 25px 0;
+    }
+    .cont_hed p {
+        padding: 0 10%;
+    }
+
+    .single {
+        margin-right: 0px;
+        width: 45%;
+    }
+    .single h4 {
+        font-size: 18px;
+    }
+
+
+    /* what I do section start  */
+    .personal_info {
+        flex-wrap: wrap;
+    }
+
+    .single_2 {
+        margin-top: 25px;
+        margin-right: 0;
+        text-align: center;
+    }
+    .s2_img {
+        margin: 0 auto;
+    }
+    .single_2 p {
+        width: 100%;
+    }
+
+    /* summary of resume */
+    .summary {
+        padding: 0 0 65px 0;
+    }
+    .summary_content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .single_3 {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    /* footer  */
+    footer {
+        padding: 50px 15px;
+    }
+    .ft_content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .f_left p {
+        width: 100%;
+    }
+    .f_right {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    .f_right input {
+        width: 96%;
+    }
+    .f_right textarea {
+        width: 100%;
+    }
 }
 @media only screen and (min-width: 768.99px) and (max-width: 992px){
     
